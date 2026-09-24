@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "MUSANZE MARKET",
+    "slug": "musanzesafemarket",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "androidStatusBar": {
+      "backgroundColor": "#0C5B4E",
+      "barStyle": "light-content"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "cameraPermission": "Allow MUSANZE MARKET to take evidence photos.",
+          "photosPermission": "Allow MUSANZE MARKET to select inspection evidence."
+        }
+      ]
+    ],
+    "ios": { "supportsTablet": true },
+    "android": {
+      "predictiveBackGestureEnabled": false,
+      "permissions": ["CAMERA", "READ_MEDIA_IMAGES"]
+    },
+    "web": {}
+  }
+}
